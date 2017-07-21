@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>organiz</display-name>
+   <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>MainServlet</servlet-name>
+  	<servlet-class>servlets.MainServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>servlets.LoginServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>ValidServlet</servlet-name>
+  	<servlet-class>servlets.ValidServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>RegistryServlet</servlet-name>
+  	<servlet-class>servlets.RegistryServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddUserServlet</servlet-name>
+  	<servlet-class>servlets.AddUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DayAddServlet</servlet-name>
+  	<servlet-class>servlets.DayAddServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>MainLogicServlet</servlet-name>
+  	<servlet-class>servlets.MainLogicServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>HoursLogicServlet</servlet-name>
+  	<servlet-class>servlets.HoursLogicServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>EarnLogicServlet</servlet-name>
+  	<servlet-class>servlets.EarnLogicServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>CalculateLogicServlet</servlet-name>
+  	<servlet-class>servlets.CalculateLogicServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>SettingsServlet</servlet-name>
+  	<servlet-class>servlets.SettingsServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>CalculateFinalServlet</servlet-name>
+  	<servlet-class>servlets.CalculateFinalServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>CurrencyCheckServlet</servlet-name>
+  	<servlet-class>servlets.CurrencyCheckServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<servlet-class>servlets.LogoutServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>MainServlet</servlet-name>
+  	<url-pattern>/main</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/log</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>RegistryServlet</servlet-name>
+  	<url-pattern>/registry</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ValidServlet</servlet-name>
+  	<url-pattern>/valid</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>AddUserServlet</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DayAddServlet</servlet-name>
+  	<url-pattern>/day</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>MainLogicServlet</servlet-name>
+  	<url-pattern>/logic</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>HoursLogicServlet</servlet-name>
+  	<url-pattern>/hours</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>EarnLogicServlet</servlet-name>
+  	<url-pattern>/earn</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CalculateLogicServlet</servlet-name>
+  	<url-pattern>/calc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>SettingsServlet</servlet-name>
+  	<url-pattern>/set</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CalculateFinalServlet</servlet-name>
+  	<url-pattern>/calcfin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>CurrencyCheckServlet</servlet-name>
+  	<url-pattern>/check</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
